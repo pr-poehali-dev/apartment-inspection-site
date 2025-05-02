@@ -39,6 +39,11 @@ const Header = ({ isMenuOpen, setIsMenuOpen }: HeaderProps) => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="/" className="flex items-center">
+          <img 
+            src="https://cdn.poehali.dev/files/8e6ac06d-586d-4d30-b0d9-394a6ce910f9.jpg" 
+            alt="LIST Logo" 
+            className="h-10 mr-2" 
+          />
           <span className="font-bold text-2xl">LIST</span>
         </a>
 
@@ -73,7 +78,12 @@ const Header = ({ isMenuOpen, setIsMenuOpen }: HeaderProps) => {
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <div className="flex flex-col h-full">
-                <div className="py-6">
+                <div className="py-6 flex items-center">
+                  <img 
+                    src="https://cdn.poehali.dev/files/8e6ac06d-586d-4d30-b0d9-394a6ce910f9.jpg" 
+                    alt="LIST Logo" 
+                    className="h-8 mr-2" 
+                  />
                   <span className="font-bold text-2xl">LIST</span>
                 </div>
                 <nav className="flex flex-col space-y-4">

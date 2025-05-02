@@ -8,9 +8,19 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="max-w-lg">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <div className="mb-6 flex items-center">
+              <img 
+                src="https://cdn.poehali.dev/files/8e6ac06d-586d-4d30-b0d9-394a6ce910f9.jpg" 
+                alt="LIST Logo" 
+                className="h-16 mr-3" 
+              />
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+                LIST
+              </h1>
+            </div>
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">
               Профессиональная приемка квартир от застройщика
-            </h1>
+            </h2>
             <p className="text-lg text-gray-700 mb-8">
               Защитим ваши интересы и проверим качество квартиры на соответствие строительным нормам. Поможем выявить дефекты и добиться их устранения.
             </p>
@@ -33,6 +43,13 @@ const Hero = () => {
                 alt="Приемка квартиры" 
                 className="rounded-lg shadow-xl w-full max-w-md object-cover hover-scale"
               />
+              <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg">
+                <img 
+                  src="https://cdn.poehali.dev/files/8e6ac06d-586d-4d30-b0d9-394a6ce910f9.jpg" 
+                  alt="LIST Logo" 
+                  className="h-12" 
+                />
+              </div>
             </div>
           </div>
         </div>
