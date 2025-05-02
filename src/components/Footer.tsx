@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-bold text-xl mb-4">ПриёмкаПро</h3>
+            <h3 className="font-bold text-xl mb-4">LIST</h3>
             <p className="text-gray-400 mb-4">
               Профессиональная приёмка квартир от застройщика. Защищаем ваши интересы и помогаем получить качественное жильё.
             </p>
@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Icon name="Mail" className="mr-2" size={16} />
-                <span className="text-gray-400">info@priemka-pro.ru</span>
+                <span className="text-gray-400">info@list.ru</span>
               </div>
               <div className="flex items-center">
                 <Icon name="Clock" className="mr-2" size={16} />
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-gray-800 text-center text-gray-500">
-          <p>© {currentYear} ПриёмкаПро. Все права защищены.</p>
+          <p>© {currentYear} LIST. Все права защищены.</p>
         </div>
       </div>
     </footer>
