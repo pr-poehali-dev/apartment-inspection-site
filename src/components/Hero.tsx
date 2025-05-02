@@ -39,8 +39,8 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -z-10 w-[80%] h-[80%] bg-blue-200/30 rounded-full blur-3xl -top-10 -left-10"></div>
               <img 
-                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
-                alt="Приемка квартиры" 
+                src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+                alt="Современный интерьер квартиры" 
                 className="rounded-lg shadow-xl w-full max-w-md object-cover hover-scale"
               />
               <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg">
